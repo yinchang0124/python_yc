@@ -8,7 +8,7 @@ class SchoolMember:
 
     def tell(self):
         '''告诉我有关的细节'''
-        print('name:"{}",age:"{}"'.format(self.name, self.age), end="")
+        print('name:"{}",age:"{}"'.format(self.name, self.age), end=",")
 
 
 class Teacher(SchoolMember):
